@@ -6,16 +6,8 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const corsOptions = {
-  origin: [
-      'https://your-frontend-vercel-app.vercel.app',
-    'http://localhost:5173'
-  ],
-  credentials: true,
-  optionsSuccessStatus: 200
-};
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(express.json());
 
 // MongoDB Atlas connection
