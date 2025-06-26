@@ -35,7 +35,7 @@ const MatchesPage = () => {
         }
         
         const response = await axios.get(
-          `http://localhost:5000/api/find-matches/${currentSection}/${desiredSection}`,
+          `https://sectionswap-backend.vercel.app/api/find-matches/${currentSection}/${desiredSection}`,
           { params: { whatsappNumber } }
         );
         
