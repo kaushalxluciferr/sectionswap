@@ -69,7 +69,7 @@ const MatchesPage = () => {
   return (
     <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
       <Typography variant="h4" gutterBottom align="center" color="primary">
-        Potential Swap Matches
+         Swap Matches
       </Typography>
       
       <Box sx={{ mb: 4 }}>
@@ -176,7 +176,7 @@ const MatchesPage = () => {
             We couldn't find any direct or three-way matches for your request at this time.
           </Typography>
           <Typography variant="body1">
-            Your request has been saved, and we'll notify you if a match becomes available.
+            Your request has been saved, and visit again after while to see .
           </Typography>
         </Paper>
       )}
