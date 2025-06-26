@@ -8,8 +8,8 @@ const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
   origin: [
-    'http://localhost:5173',
-    'https://your-frontend-vercel-app.vercel.app'
+      'https://your-frontend-vercel-app.vercel.app',
+    'http://localhost:5173'
   ],
   credentials: true,
   optionsSuccessStatus: 200
